@@ -3,43 +3,79 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="./assets/css/style.css">
-        <title>Week 1 Mini Project</title>
+        <title>K.R.B</title>
     </head>
 
     <body>
         <header>
-            <h1>Week 1 Mini Project</h1>
-            <p><em>Wow! This is <strong>entirely</strong> from scratch!</em></p>
+            <h1>Katya Ravioli Brindle</h1>
+            <p><em>"MEOOOOOOOOOWWWWWWW" <br>- Kat, everyday 7:30AM, 6:30PM</em></p>
             <nav>
                 <ul>
-                    <li id="navButtons">&nbsp Link 1 &nbsp</li>
-                    <li id="navButtons">&nbsp Link 2 &nbsp</li>
-                    <li id="navButtons">&nbsp Contact &nbsp</li>
+                    <li id="navButtons"><a href="#images">&nbsp Pictures &nbsp</a></li>
+                    <li id="navButtons"><a href="#contact">&nbsp Contact &nbsp</a></li>
+                    <li id="navButtons"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">&nbsp Secret &nbsp</a></li>
                 </ul>
             </nav>
-        </header>
-
+        </header>   
+        
+        <a name="images"></a>
+        
         <main>
             <section>
-                <h2>Can you find the English sentence?</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Congratulations! You've found me. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
+                <h2>Ain't she something?</h2>
+                
+                <img src="./assets/images/image-01.png" alt="Kat pic 1">
+                <img src="./assets/images/image-02.png" alt="Kat pic 2">
+                <img src="./assets/images/image-03.png" alt="Kat pic 3">
+                <img src="./assets/images/image-04.png" alt="Kat pic 4">
+                <img src="./assets/images/image-05.png" alt="Kat pic 5">
+                <p class="small"><em>One teeny caption to rule them all!</em></p>
             </section>
 
-            <img src=".assets/images/image-01.png" alt="a pic of my cat">
+            <br><br><br>
+            
+            <a name="contact"></a>
+
+            <section class="border">
+                <h2>For more pictures, please contact me with the form below:</h2>
+
+                <form>
+                    <label for="first.name">First name:</label>
+                    <input type="text" id="first.name" name="first.name" placeholder="Your first name...">
+                </form>
+                
+                <form>
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" placeholder="Your email...">
+                </form>
+
+                <form>
+                    <label for="rating">How would you rate the above pictures of Kat from 1 (bad) to 5 (amazing)?</label>
+                    <select id="rating" name="rating">
+                        <option value="" disabled selected>Select your rating</option>
+                        <option value="1">1 - Kat is offended</option>
+                        <option value="2">2 - Still offended</option>
+                        <option value="3">3 - Less offended</option>
+                        <option value="4">4 - Getting better</option>
+                        <option value="5">5 - Kat is pleased</option>
+                    </select>
+                </form>
+                
+                <form>
+                    <button type="submit">Click for cuteness</button>
+                </form>
+
+            </section>
         </main>
+
+        <br><br><br>
+
+        <footer>
+            Thanks for visiting!
+        </footer>
     </body>
+
+<script type="text/javascript" src="logic.js"></script>
+
 </html>
